@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Document</title>
+   <style>
+       *{
+           padding: 0;
+           margin: 0;
+            box-sizing: border-box;
+       }
+         /* ul,li{
+         list-style: none;
+         } */
+
+            ul{
+                
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+
+            }
+            li{
+                list-style: none;
+                width: 22%;
+                height: 300px;
+                border: 1px solid red;
+               
+                margin-bottom: 20px;
+               
+
+            }
+            
+       
+            @media all and (min-width:0px) and (max-width:400px) {
+              li{
+                    width: 96%;
+                }
+            }
+             @media all and (min-width:401px) and (max-width:700px) {
+                li{
+                    width: 46%;
+                }
+            }
+             @media all and (min-width:701px) and (max-width:1100px) {
+                li{
+                    width: 30%;
+                }
+            }
+   </style>
+       
+   </body>
+
+</head>
+<body>
+    <ul class="box">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>

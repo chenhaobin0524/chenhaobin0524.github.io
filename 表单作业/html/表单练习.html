@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        form {
+            width: 600px;
+            border: 1px solid red;
+            margin: auto;
+        }
+        legend{
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        label {
+            text-align: right;
+            width: 200px;
+            display: inline-block;
+        }
+        .p2{
+            text-align: center;
+        }
+        .p1{
+            
+            
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h2>已注册用户登录</h2>
+        <fieldset>
+            <legend>
+                用户登录
+            </legend>
+            <p>
+                <label for="usename">用户名</label>
+                <input type="text" id="usename">
+            </p>
+            <p>
+                <label for="usepossword">密码</label>
+                <input type="password" id="usepossword">
+            </p>
+            <p class="p1">
+                <input type="checkbox" >
+                <span>记住我</span>
+                <input type="button" value="登录">
+            </p>
+           <a href="">你忘记密码了吗？</a>
+
+        </fieldset>
+        <h2>未注册创建账户</h2>
+        <fieldset>
+            <legend>用户注册</legend>
+            <p>您的电子邮箱不会被公布出去，但是必须填写。在您注册之前请认真阅读服务条款</p>
+            <p>
+                <label for="usename" >用名</label>
+                <input type="text" id="usename" name="usr" placeholder="请输入用户名">
+            </p>
+            <p>
+                <label for="usepossword">电子邮箱</label>
+                <input type="password" id="usepossword">
+            </p>
+            <p>
+                <label for="usepossword">密码</label>
+                <input type="password" id="usepossword">
+            </p>
+            <p>
+                <label for="usepossword">重复密码</label>
+                <input type="password" id="usepossword">
+            </p>
+            <p>
+                <label for="usepossword">同意服务条款</label>
+                <input type="checkbox" id="usepossword">
+                <a href="">先看看服务条款</a>
+            </p>
+            <p class="p2">
+                <input type="submit">
+                <input type="reset">
+            </p>
+            <p>*在提交您的注册信息时，我们认为您已经同意了我们的服务条款。</p>
+            <p>*这些条款可能在未经您同意的时候进行修稿</p>
+        </fieldset>
+
+
+
+    </form>
+</body>
+
+</html>

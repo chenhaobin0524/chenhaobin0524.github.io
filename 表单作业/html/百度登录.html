@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        form{
+            height: 500px;
+            width: 500px;
+            border: 1px solid red;
+            margin: auto;
+        }
+      
+            label{
+                width: 200px;
+                text-align: right;
+                display: inline-block;
+            }
+            .p1,.p2{
+                text-align: center;
+            }
+            .p2 input{
+                width: 400px;
+                height: 50px;
+            }
+            .p3 input{
+                width: 100px;
+            }
+            .p3 .ip2{
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+            }
+            input[type=submit]{
+                background: dodgerblue;
+            }
+            input[type=checkbox]{
+            width: 15px;
+            height: 15px;
+            vertical-align: -2px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="">
+        <p>
+            <label for="user">用户名</label>
+            <input type="text" name="user" id="user" placeholder="请设置用户名">
+        </p>
+        <p>
+            <label for="phone">手机号</label>
+            <input type="text" name="phong" id="phone" placeholder="可用于登录和找回密码">
+        </p>
+        <p>
+            <label for="">密码</label>
+            <input type="password" name="psw" id="psw" placeholder="请设置登录密码">
+        </p>
+        <p class="p3">
+            <label for="">验证码</label>
+            <input class="ip1" type="text" name="yzm" id="yzm" placeholder="请输入验证码">
+           <input class="ip2" type="buttom" value="获取短信验证码">
+        </p>
+        <p class="p1">
+            <input  type="checkbox">
+            <a href="">《百度用户协议》</a>及<a href="">《百度隐私保护声明》</a>
+        </p>
+        <p class="p2">
+            <input type="submit" value="注册">
+        </p>
+    </form>
+    
+</body>
+
+</html>

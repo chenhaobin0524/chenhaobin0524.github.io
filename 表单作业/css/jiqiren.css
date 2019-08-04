@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+span{
+    display: inline-block;
+}
+.div{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background: #cccccc;
+    
+}
+.div p{
+    width: 200px;
+    height: 100px;
+    background: #51a251;
+    margin: auto;
+    border-radius: 50% 50% 0 0 /100% 100% 0 0;
+    position: relative;
+    margin-bottom: 10px;
+}
+.div p span{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+   
+    
+
+}
+.div p .span1{
+    position: absolute;
+    left: 60px;
+    bottom: 30px;
+}
+.div p .span2{
+    position: absolute;
+    right: 60px;
+    bottom: 30px;
+    
+}
+.div2{
+    margin-left: 110px;
+    font-size: 0px;
+}
+.div2  .span3,.span5{
+    height: 180px;
+    width: 30px;
+    background: #51a251;
+    vertical-align: middle;
+    border-radius: 9px;
+}
+.div2 .span4{
+    height: 230PX;
+    width: 200PX;
+    background: #51a251;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   margin-right: 10px;
+    vertical-align: middle;
+    margin-left: 10px;
+   
+}
+.div3{
+    margin-left: 190px;
+    font-size: 0px;
+}
+.div3 span{
+    width: 30px;
+    height: 80px;
+    background: #51a251;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.div3  .span6{
+    margin-right: 60px;
+}
